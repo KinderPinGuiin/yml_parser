@@ -22,7 +22,7 @@
  */
 
 #define YML_STRING_REGEX "([a-z0-9_]+)\\s*:\\s*\"([a-z0-9_ ]+)\"(\r?\n)*"
-#define YML_INT_REGEX "([a-z0-9_]+)\\s*:\\s*([0-9]+)(\r?\n)*"
+#define YML_INT_REGEX "([a-z0-9_]+)\\s*:\\s*(-?[0-9]+)(\r?\n)*"
 
 #define KEY_GROUP 1
 #define VALUE_GROUP 2
